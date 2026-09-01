@@ -19,4 +19,4 @@ It demonstrates core game-programming fundamentals outside of a canvas context: 
 Just open `index.html` in a browser — no build step, no install.
 
 ## Live version
-TBD — will be added after deployment
+Play it here: https://nilushamadhuwanthi123.github.io/game-2048_game/
