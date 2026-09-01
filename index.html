@@ -911,8 +911,8 @@
     handleDirection(dir);
   });
 
-  newGameBtn.addEventListener("click", newGame);
-  restartBtn.addEventListener("click", newGame);
+  newGameBtn.addEventListener("click", () => { newGameBtn.blur(); newGame(); });
+  restartBtn.addEventListener("click", () => { restartBtn.blur(); newGame(); });
   keepPlayingBtn.addEventListener("click", () => {
     keepPlaying = true;
     winBanner.hidden = true;
